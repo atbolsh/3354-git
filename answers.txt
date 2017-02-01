@@ -1,0 +1,65 @@
+
+
+a) 7
+
+Command:
+git rev-list --count --all 
+
+
+
+b) Tue Jan 24 22:28:11 2017 -0600
+
+"git log" includes the following contents:
+
+commit fdd71cb7dfd525ecf5330366f9cf880243b4d896
+Author: juan <jmflorezff@gmail.com>
+Date:   Tue Jan 24 22:28:11 2017 -0600
+
+    Added ignore file
+
+
+
+c) There is little similar between the two
+
+git log:
+History of commits, with messages and digests
+
+git status:
+Current status --which files are staged, which files
+are not staged, which changes will be commited if the
+command is run, and how many commits you are ahead
+of master.
+
+
+
+d)
+Unstaged files have changes which will not be saved
+on next commit.
+
+Untracked files do not exist in any previous commits,
+and their changes have not even been staged (git add).
+
+Source: https://www.quora.com/What-is-the-difference-between-an-unstaged-and-an-untracked-file-in-Git
+
+
+
+
+
+e)
+git checkout -- move to the designated branch.
+Move files from index to working directory.
+
+git reset -- move the HEAD to the designated branch. 
+Reroot the tree.
+
+Sources: 
+https://git-scm.com/docs/git-checkout
+https://git-scm.com/docs/git-reset
+https://git-scm.com/blog/2011/07/11/reset.html
+
+
+f)
+git will throw an error, and force you to commit those changes.
+
+
+
